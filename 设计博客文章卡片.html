@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Card</title>
+    <style>
+        .post-content{
+         padding:20px;   
+        }
+        .blog-post-card{
+         border-radius:4px;
+         background:white;
+          width:300px;
+         text-align:center;   
+        }
+        .read-more{
+            background-color:blue;
+            color:white;
+            padding:10px 20px;
+            text-decoration:none;
+            border-radius:4px;
+            margin:10px;
+            display:inline-block;
+        }
+        .read-more:hover{
+            background-color:darkblue;
+        }
+        .post-img{
+            width:100%;
+            display:block;
+            border-bottom:1px solid black;
+        }
+        .post-title{
+            margin:10px 0;
+            color:green;
+        }
+        .post-excerpt{
+            margin:10px 0;
+            color:red;
+        }
+    </style>
+</head>
+<body>
+<div class="blog-post-card" ">
+    <img class="post-img" alt="一张博客文章卡片" src="https://cdn.freecodecamp.org/curriculum/labs/cover-photo.jpg"  />
+    <div class="post-content">
+        <h2 class="post-title">博客文章的标题</h2>
+        <p class="post-excerpt">博客文章</p>
+        <a class="read-more">Read More</a>
+    </div>
+</div>
+<div></div>
+</body>
+</html>
