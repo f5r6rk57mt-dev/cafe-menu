@@ -1,0 +1,59 @@
+.read{
+background-image:linear-gradient(to right, #d4edda,#c3e6cb);
+}
+.in-progress{
+background-image:linear-gradient(to right,#fff3cd,#ffeaa7);
+}
+span{
+  display:inline-block;
+}
+tr[class="read"]{
+  background-image:linear-gradient(to right,#d4edda,#c3e6cb);
+} 
+tr[class="to-read"]{
+border:2px solid #721c24;
+background-image:linear-gradient(to right, #f5c6cb,#f1b0b7);
+}
+tr[class="read"]{
+  border:2px solid #155724;
+  background-image:linear-gradient(to right, #c3e6cb,#b8daff);
+}
+tr[class="in-progress"]{
+  border:2px solid #856404;
+  background-image:linear-gradient(to right, #ffeaa7,#ffd970);
+}
+tr[class="to-read"] span[class="status"] {
+border:2px solid #721c24;
+background-image:linear-gradient(to right, #f5c6cb,#f1b0b7);
+}
+tr[class="read"] span[class="status"]{
+  border:2px solid #155724;
+  background-image:linear-gradient(to right, #c3e6cb,#b8daff);
+}
+tr[class=in-progress] span[class="status"]{
+  border:2px solid #856404;
+  background-image:linear-gradient(to right, #ffeaa7,#ffd970);
+}
+span[class="status"],span[class^="rate"]{
+ height:40px;
+ width:120px;
+  padding:10px 15px;
+}
+span[class^="rate"] > span{
+border:2px solid #d35400;
+border-radius:20px;
+margin:10px;
+height:40px;
+width:120px;
+background-color:white;
+}
+span[class~="one"]>:first-child{
+background-image:linear-gradient(to right,#0ba360,#3cba92);
+}
+span[class~="two"]>:first-child,
+span[class~="two"]>:nth-child(2) {
+background-image:linear-gradient(to right,#0ba360,#3cba92);
+}
+span[class~="three"] span{
+background-image:linear-gradient(to right,#8e2de2,#4a00e0);
+}
